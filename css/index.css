@@ -68,6 +68,12 @@ h1, h2, h3, h4, h5 {
     margin: auto;
 }
 
+@media(max-width: 800px) {
+    .container {
+        width: 95%;
+    }
+}
+
 /* Header Styles */
 
 header {
@@ -106,7 +112,7 @@ header .logo {
     }
     header nav {
         width: 90%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 }
 
@@ -182,6 +188,15 @@ header .logo {
 
 .main-content .bottom-content p {
     padding-right: 20px;
+}
+
+@media(max-width:800px) {
+    .main-content .middle-img {
+        width: 100%;
+    }
+    .text-content {
+        padding: 1.5%;
+    }
 }
 
 /* Contact Styles */
