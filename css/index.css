@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-    width: 880px;
+    max-width: 880px;
     margin: auto;
 }
 
@@ -79,6 +79,7 @@ h1, h2, h3, h4, h5 {
 header {
     width: 100%;
     display: flex;
+    
 }
 
 header nav {
@@ -180,6 +181,7 @@ header .logo {
 .main-content .middle-img {
     display: block;
     margin: 30px auto;
+    width: 100%
 }
 
 .main-content .bottom-content {
@@ -191,9 +193,6 @@ header .logo {
 }
 
 @media(max-width:800px) {
-    .main-content .middle-img {
-        width: 100%;
-    }
     .text-content {
         padding: 1.5%;
     }
