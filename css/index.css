@@ -324,6 +324,26 @@ footer {
 }
 
 .services-content .services-info .services-info-img {
-  width: 420px;
-  height: 300px;
+  width: 45%;
+  height: auto;
+  align-self: center;
+}
+
+@media(max-width: 800px) {
+    .services-content .services-info {
+        flex-flow: column;
+    }
+    
+    .services-content .services-info .facts {
+        width: 100%;
+        margin: 0;
+    }
+
+    .services-content .services-info .services-info-img {
+        width: 75%;
+    }
+}
+
+@media(max-width: 500px) {
+    
 }
