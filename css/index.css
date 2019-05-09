@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+@media(max-width: 500px) {
+    .container: 92%
+}
+
 /* Header Styles */
 
 header {
@@ -126,7 +130,7 @@ header .logo {
     header nav a {
         padding: 20px;
         border-top: 1px solid gray;
-        width: 115%;
+        width: 120%;
         text-align: center;
         font-size: 20px;
     }
@@ -219,6 +223,14 @@ header .logo {
 @media(max-width:800px) {
     .text-content {
         padding: 1.5%;
+    }
+}
+@media(max-width: 500px) {
+    .bottom-content, .top-content {
+        flex-direction: column;
+    }
+    .text-content {
+        padding: 22px 0;
     }
 }
 
