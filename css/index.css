@@ -259,7 +259,9 @@ footer {
 }
 
 .services-content .services-header-img {
+    align-self: flex-start;
     margin: 20px 0;
+    width: 100%;
 }
 
 .services-content h1 {
@@ -276,7 +278,7 @@ footer {
 .services-content .card {
     padding: 20px;
     border: 1px solid black;
-    width: 420px;
+    width: 48%;
     background: whitesmoke;
     margin: 20px 0;
 }
@@ -313,7 +315,7 @@ footer {
 }
 
 .services-content .services-info .facts {
-  width: 400px;
+  width: 45%;
   margin: 0 60px 20px 0;
 }
 
